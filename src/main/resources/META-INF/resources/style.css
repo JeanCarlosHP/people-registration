@@ -1,0 +1,76 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+    margin-top: 2rem;
+}
+
+.box input {
+    background-color: #dddddd;
+    padding: 0.5rem;
+    border-radius: 4px;
+
+    outline: none;
+}
+
+.box button {
+    background-color: #c4c4c4;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+
+    font-size: 1.1rem;
+}
+
+.box button:hover {
+    background-color: #cccccc;
+}
+
+.divider {
+    height: 1px;
+
+    margin: 4rem 0 4rem 0;
+
+    background-color: #dddddd;
+}
+
+.registered-peoples h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 40%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

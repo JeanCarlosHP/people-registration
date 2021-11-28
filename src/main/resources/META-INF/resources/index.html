@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Pessoas</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Cadastro de Pessoas</h1>
+
+            <div>
+                <span>Nome: </span>
+                <input id="name-people" type="text" placeholder="Insira o nome">
+            </div>
+            <div>
+                <span>Idade: </span>
+                <input id="age-people" type="number" placeholder="Insira a idade">
+            </div>
+
+            <button id="btn-register">Registrar</button>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div>
+        <div class="registered-peoples">
+            <h1>Pessoas Cadastradas</h1>
+
+            <table id="table">
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
